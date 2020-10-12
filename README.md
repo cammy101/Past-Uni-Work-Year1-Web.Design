@@ -1,2 +1,2 @@
 # Past-Uni-Work-Year1-Web.Design
- The first ever website I ever developed
+The first ever website I ever developed applying HTML, CSS, Javascript and PHP in which needed to feature the abilty to add items to a backet it via drag and drop, offer a means of item customization through the use buttons and image shuffling along with the ability to save and store a "customers" customized item for when they leave and come back to the website, and a dynamic contacts and location page in which I employed a functional map, applied php for emailing within a website, and applying accordian and the like for neat infomation.
