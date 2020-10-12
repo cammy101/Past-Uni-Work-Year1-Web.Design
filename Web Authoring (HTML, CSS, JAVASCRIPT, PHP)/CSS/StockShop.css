@@ -1,0 +1,219 @@
+
+p.gadget 
+{
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 40px;
+font-weight: bold;
+}
+
+p.gadet2 
+{
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 30px;
+font-weight: bold;
+}
+
+p.gadet3
+{
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 15px;
+font-weight: bold;
+}
+
+p.monaco
+{
+font-family: "Lucida Console", Monaco, monospace;
+font-size: 20px;
+}
+
+header
+{
+text-align: center;
+border-radius: 25px;
+background-color: #E7DFDD;
+padding: 20px;
+margin: 0px;
+}
+
+nav
+{
+text-align: center;
+margin:0px;
+padding: 0px;
+border-radius: 25px;
+background-color: #E7DFDD;
+}
+
+li 
+{ 
+display:inline;  
+position: relative;
+}
+
+label 
+{
+display:block;
+margin-top:20px;
+letter-spacing:1px;
+}
+
+section 
+{
+text-align: center;
+float:left;
+display:inline-block;
+height:auto;
+width: 1245px;
+margin-bottom: 10px;
+border-radius: 25px;
+background-color: #4717F6;
+padding: 5px;
+}
+
+aside
+{
+float:right;
+width:180px;
+height:200px;
+border-radius: 25px;
+background-color: #E7DFDD;
+padding: 20px;
+}
+
+canvas
+{
+	border: 1px;
+	margin: auto;
+	width: 500px;
+	height: 500px;
+	display: block;	
+}
+
+footer
+{
+text-align: center;
+clear: both;
+border-radius: 25px;
+background-color: #E7DFDD;
+padding: 20px;
+}
+
+article
+{
+float: left;
+border-radius: 25px;
+background-color: #E7DFDD;
+padding: 20px;
+width: 800px;
+}
+
+.products
+{
+text-decoration:none;
+display:inline-block;
+width: 300px;
+height: 300px;
+}
+
+.products img
+{
+border:1px solid #333;
+width: 150px;
+height: 150px;
+}
+
+.products p
+{
+margin:0;
+font-weight:bold;
+text-align:center;
+color:black;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 15px;
+font-weight: bold;
+}
+
+.sectionwrapper
+{
+text-align: center;
+clear: both;
+border-radius: 25px;
+background-color: #E7DFDD;
+padding: 20px;
+}
+
+.wrapper { 
+margin: 0 auto;
+width: 1280px;
+background-color: #0E0B16;
+border-radius: 25px;
+padding: 20px;
+}
+
+.rightarticale
+{
+float: right;
+border-radius: 25px;
+background-color: #E7DFDD;
+padding: 20px;
+width: 300px;
+margin-left: 30px;
+}
+
+.basket
+{
+height: 500px;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 15px;
+font-weight: bold;
+}
+
+.column 
+{
+   -webkit-column-count: 3;
+}
+
+.parent
+{
+	 display: flex;
+}
+
+a:link {
+    color: #9900cc;
+    background-color: transparent;
+    text-decoration: none;
+	font-family: "Arial Black", Gadget, sans-serif;
+font-size: 18px;
+font-weight: bold;
+}
+a:visited {
+    color: #9900cc;
+    background-color: transparent;
+    text-decoration: none;
+	font-family: "Arial Black", Gadget, sans-serif;
+font-size: 18px;
+font-weight: bold;
+}
+a:hover {
+    color: #9900cc;
+    background-color: transparent;
+    text-decoration: underline;
+	font-family: "Arial Black", Gadget, sans-serif;
+font-size: 18px;
+font-weight: bold;
+}
+a:active {
+    color: #9900cc;
+    background-color: transparent;
+    text-decoration: underline;
+	font-family: "Arial Black", Gadget, sans-serif;
+font-size: 18px;
+font-weight: bold;
+}
+
+#submit 
+{
+	width: 100px;
+	padding-bottom: 10px;
+}
+

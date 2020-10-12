@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width"/>
+<link rel="stylesheet" type="text/css" href="CSS/Customize.css"> 
+<script src="JavaScript/Customize.js"></script>
+<title> Brum Customs </title>
+</head>
+
+<div class="wrapper">
+
+<header>
+			<h1 class="gadget">Brum Automobile's</h1>
+</header>
+
+<nav>
+<ul>
+<li class="gadet3"> <a href="StockCar's.html">|Buy Stock Car's |</a> </li>
+<li class="gadet3"> <a href="Customize.html">Customize and Create Your Own Car |</a> </li>
+<li class="gadet3"> <a href="DEMO.html"> VIDEO DEMO |</a> </li>
+<li class="gadet3"> <a href="index.html">Back to the Welcome Page |</a> </li>
+</ul>
+</nav>
+
+<br>
+
+
+<section>
+<h2 class="gadet2"> Create your own custom car and we will assess and quote your total build price!! </h2>
+
+<br>
+
+<article>
+
+<div class="main">
+			<div class="buttonz">
+			    <h3> Flag's: </h3>
+				<button class="left-button" onclick="onFlagChange(-1)">«</button>
+				<button class="right-button" onclick="onFlagChange(+1)">»</button>
+				
+				<br>
+				<br>
+				
+                <h4> Car Chasis: </h4>				
+				<button class="left-button" onclick="onCarbodyChange(-1)">«</button>
+				<button class="right-button" onclick="onCarbodyChange(+1)">»</button>
+					
+				<br>
+				<br>
+				
+				<h5> Body Paint Colour: </h5>
+				<button class="left-button" onclick="onColourChange(-1)">«</button>
+				<button class="right-button" onclick="onColourChange(+1)">»</button>
+					
+				<br>
+				<br>
+				
+				<h6> Wheel Size: </h6>
+				<button class="left-button" onclick="onWheelChange(-1)">«</button>
+				<button class="right-button" onclick="onWheelChange(+1)">»</button>
+			</div>
+			<div class="container">
+				<div class="flag row">
+					<img id="flag-image" src="Images/Flag/FlagBlue.png" alt="Flag">
+				</div>
+				<div class="carbody row">
+					<img id="carbody-image" src="Images/Top/CarBody1.png" alt="Car">
+				</div>
+				<div class="colour row">
+					<img id="colour-image" src="Images/body/Silver.png" alt="Colour">
+				</div>
+				<div class="wheel row">
+					<img id="wheel-image" src="images/wheels/SmallWheels.png" alt="wheel">
+				</div>
+			</div>
+
+			<div>
+			<input id="selector-box" type="text" value="h: 0 | t: 0 | w: 0" readonly="">
+			<button class="selector button" onclick="randomizeBody()">Randomize</button>
+			<button class="selector button" onclick="saveSelection()">Save selection</button>
+			<button class="selector button" onclick="loadSelection()">Load selection</button>
+			</div>
+			
+</div>
+  
+</article>
+
+<br>
+<br>
+
+</section>
+
+<br>
+
+<footer> 
+<ul>
+<li class="gadet3"> <a href="Contactandabout.html">| Contact us & About us |</a> </li>
+</ul>
+</footer>
+
+</div>
+</html>
